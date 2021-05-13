@@ -1,1 +1,1 @@
-# Djs-Bot-Template
+# Darkgoatie's guide to discord.js
