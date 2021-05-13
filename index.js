@@ -38,4 +38,4 @@ fs.readdir("./commands/", (err, files) => {
     } // This is our command handler part.
 )}); 
 
-client.login(bot.info.token)
+client.login(bot.info.token) // Here is the part we log in with the bot.
