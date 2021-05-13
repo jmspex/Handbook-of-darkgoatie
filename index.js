@@ -37,3 +37,5 @@ fs.readdir("./commands/", (err, files) => {
         client.commands.set(commandName, props);
     } // This is our command handler part.
 )}); 
+
+client.login(bot.info.token)
