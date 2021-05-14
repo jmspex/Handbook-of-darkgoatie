@@ -1,0 +1,1 @@
+# Darkgoatie's bot guide
