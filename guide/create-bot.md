@@ -1,4 +1,4 @@
-# Beginning
+# Creating bot account
 First, start with creating a bot application
 
 ## Step 1, go to dev portal
