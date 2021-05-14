@@ -13,5 +13,3 @@ message.channel.send('The channel has been locked!') // Here we notify that the 
     }
   }
 }
-
-// Unlock command in #3!
