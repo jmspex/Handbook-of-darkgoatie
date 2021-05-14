@@ -36,8 +36,11 @@ const user = message.author
 ```
 
 ```
-client.users.fetch(myId)
+client.users.fetch('UserID').then(u => {
+  const user = u
+})
+// This will define 'user' as the user with the person with the ID: "UserID".
 ```
-
-
+> **Warning:** This requires guild member intents.
+ 
 
