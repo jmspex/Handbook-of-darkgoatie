@@ -1,45 +1,19 @@
-# Guide for basic commands
+# Creating commands
+First, create a directory named `commands`.
+Then, create a command file (`.js`) inside that directory. It'll look like this:
+`/commands/CommandName.js`
 
-### Commands:
+in the file, put this:
 
-
-##### 
-
-##### Lock
 ```js
 module.exports = {
-	name: 'lock',
-	aliases: ['l'],
+	name: 'hi',
+	aliases: ['aliase2','aliase2','aliase3'], // You can just cut off this line if you don't want any aliases
 	description: 'Locks the channel',
-	execute(client, message, args) {    // The return function will stop the code from working and returns the continuing line.
-if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.channel.send('No perms!');
-const role = guild.roles.find("name", '@everyone');
-    try { // The try will prevent the bot from crashing if doesn't have perms, is quarantined etc.
-message.channel.overwritePermissions(role,{ 'SEND_MESSAGES': true });
-message.channel.send('The channel has been locked!') // Here we notify that the channel perms were successfully modified.
-    } catch(e) { // This part will report the error if an error occurs.
-      message.channel.send('Error!'/*This is the part which will send us the error -> */+ e)
-    }
-  }
-}
+	execute(client, message, args) {   
+ // Command code here
+        }
+                 }
 ```
 
-##### Unlock
-```js
-module.exports = {
-	name: 'unlock',
-	aliases: ['ul'],
-	description: 'Locks the channel',
-	execute(client, message, args) {    // The return function will stop the code from working and returns the continuing line.
-if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.channel.send('No perms!');
-const role = message.guild.roles.find("name", '@everyone'); // Here we get the role ID of @everyone
-    try { // The try will prevent the bot from crashing if doesn't have perms, is quarantined etc.
-message.channel.overwritePermissions(role,{ 'SEND_MESSAGES': true });
-message.channel.send('The channel has been unlocked!') // Here we notify that the channel perms were successfully modified.
-    } catch(e) { // This part will report the error if an error occurs.
-      message.channel.send('Error!'/*This is the part which will send us the error -> */+ e)
-    }
-
-  }
-}
-```
+You will put the command code into `execute(c, m, a) {...this...}` part.
