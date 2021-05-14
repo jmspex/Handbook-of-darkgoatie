@@ -23,6 +23,6 @@ You can customize your bot account here! Give it a pfp and a name.
 ![](https://www.freecodecamp.org/news/content/images/size/w1600/2020/11/image-123.png)
 ![](https://www.freecodecamp.org/news/content/images/size/w1600/2020/11/image-124.png)
 
-> Now, head to [/guide/create-bot.md](https://github.com/Darkgoatie/Darkgoatie-s-guide-to-discord.js/blob/main/guide/create-bot.md).
+> Now, head to [/guide/create-files.md](https://github.com/Darkgoatie/Darkgoatie-s-guide-to-discord.js/blob/main/guide/create-files.md).
 
 - Images source: [freecodecamp.org](https://www.freecodecamp.org/news/create-a-discord-bot-with-python/)
