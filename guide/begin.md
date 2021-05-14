@@ -23,4 +23,4 @@ You can customize your bot account here! Give it a pfp and a name.
 ![](https://www.freecodecamp.org/news/content/images/size/w1600/2020/11/image-123.png)
 ![](https://www.freecodecamp.org/news/content/images/size/w1600/2020/11/image-124.png)
 
-> Now, head to /guide/bot.js
+> Now, head to [/guide/bot.js](https://github.com/Darkgoatie/Darkgoatie-s-guide-to-discord.js/blob/main/guide/bot.md).
