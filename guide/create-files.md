@@ -57,7 +57,7 @@ Here is how a complete `index.js` should look like:
 const fs = require('fs');
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.info = require('./botinfo.json') // Loads info from botinfo.json
+client.info = require('./info.json') // Loads info from info.json
 
 client.once('ready', () => {
     console.log(`Ready on ${client.user.tag}`);
