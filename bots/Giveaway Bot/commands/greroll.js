@@ -1,5 +1,4 @@
 const ms = require('ms');
-const { prefix } = require('../config.json');
 
 module.exports = {
 	name: 'reroll',
