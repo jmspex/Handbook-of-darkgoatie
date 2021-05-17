@@ -1,0 +1,9 @@
+{
+  "token": "ODI...",
+  "status": "g/help | github.com/Handbook-of-Darkgoatie",
+  "editinterval": "5000 (Milliseconds, 1000ms = 1s)",
+  "embedcolor": "#FFFF00",
+  "reaction": "🎉",
+  "database": "./database.json",
+  "prefix": "t/"
+}
