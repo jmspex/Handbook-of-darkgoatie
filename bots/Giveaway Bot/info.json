@@ -1,9 +1,10 @@
 {
   "token": "ODI...",
-  "status": "g/help | github.com/Handbook-of-Darkgoatie",
+  "status": "g/help | github.com/Darkgoatie/Handbook-of-Darkgoatie",
   "editinterval": "5000 (Milliseconds, 1000ms = 1s)",
   "embedcolor": "#FFFF00",
   "reaction": "🎉",
   "database": "./database.json",
-  "prefix": "t/"
+  "prefix": "t/",
+  "giveawaymaxlength": "360000 {1 hour} (Milliseconds, 1000ms = 1s)"
 }
