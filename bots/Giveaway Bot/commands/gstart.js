@@ -5,11 +5,11 @@ module.exports = {
         aliases: ['gstart','giveaway-start'],
 	description: 'Starts a giveaway',
 	execute(client, message, args) {
-    if(!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")){
-        return message.channel.send(':boom: You need to have the \`MANAGE_MESSAGES\` permissions or a role named \`Giveaways\`to start giveaways.');
+    if(!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name.toLowerCase() === "giveaway manager")){
+        return message.channel.send(':boom: You need to have the \`MANAGE_MESSAGES\` permissions or a role named \`Giveaway Manager\`to start giveaways.');
     }
 
-    let Channel = message.channel
+    let Channel = message.channel;
     if(!Channel){
         return;
     }
