@@ -1,0 +1,18 @@
+{
+  "name": "Yeet-Giveaways",
+  "version": "1.0.2",
+  "description": "Classic old fashion giveaway bot made by darkgoatie.",
+  "main": "index.js",
+  "repository": "https://github.com/Darkgoatie/Handbook-of-darkgoatie",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darkgoatie#6381",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord-giveaways": "^4.4.3",
+    "ms": "^2.1.2",
+    "mathjs": "^9.3.2"
+  }
+}
